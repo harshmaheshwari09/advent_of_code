@@ -26,9 +26,8 @@ puzzles using their preferred programming language and submit their solutions fo
 ## Repository Structure
 This repository contains solutions to Advent of Code puzzles. The structure is organized by year and day.
 ```bash
-├── Readme.md
-├── java.advent_of_code_2023
-│   └── java.advent_of_code_2023
+├── java
+│   └── advent_of_code_2023
 │       └── util
 │           └── ReadFileAndCreateList.java
 │       ├── day1
@@ -42,8 +41,7 @@ This repository contains solutions to Advent of Code puzzles. The structure is o
 │          ...
 │          ...
 │
-├── advent_of_code_2022
-│   └── java.advent_of_code_2023
+│   └── java.advent_of_code_2022
 │       ├── day1
 │       │   ├── Part1.java
 │       │   ├── Part2.java
@@ -53,6 +51,18 @@ This repository contains solutions to Advent of Code puzzles. The structure is o
 │       │   ├── Part2.java
 │       │   └── input.txt
 ```
+
+## Contributing
+If you have a different or optimized solution for any of the problems, feel free to contribute! Here's how you can contribute:
+
+1) Fork this repository.
+2) Create a new branch for your contribution.
+3) Implement your solution and ensure it passes the tests.
+4) Commit your changes and push the branch to your forked repository.
+5) Open a pull request with a detailed description of your solution.
+
+I appreciate any contributions and improvements to the existing solutions!
+
 ## Acknowledgments
 Advent of Code is created and maintained by Eric Wastl. Special thanks to Eric for providing these fun challenges year after year!
 
