@@ -25,7 +25,7 @@ public class Part1 {
     }
 
     public static void main(String[] args) throws IOException {
-        List<String> values = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/src/day1/input_1.txt");
+        List<String> values = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/advent_of_code_2023/src/day1/input_1.txt");
         System.out.println(getCalibration(values));
     }
 }

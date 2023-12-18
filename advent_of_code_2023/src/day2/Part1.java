@@ -33,7 +33,7 @@ public class Part1 {
     }
 
     public static void main(String[] args) throws IOException {
-        List<String> games = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/src/day2/input.txt");
+        List<String> games = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/advent_of_code_2023/src/day2/input.txt");
         System.out.println(getTotal(games));
     }
 }
