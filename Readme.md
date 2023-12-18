@@ -27,8 +27,8 @@ puzzles using their preferred programming language and submit their solutions fo
 This repository contains solutions to Advent of Code puzzles. The structure is organized by year and day.
 ```bash
 ├── Readme.md
-├── advent_of_code_2023
-│   └── src
+├── java.advent_of_code_2023
+│   └── java.advent_of_code_2023
 │       └── util
 │           └── ReadFileAndCreateList.java
 │       ├── day1
@@ -43,7 +43,7 @@ This repository contains solutions to Advent of Code puzzles. The structure is o
 │          ...
 │
 ├── advent_of_code_2022
-│   └── src
+│   └── java.advent_of_code_2023
 │       ├── day1
 │       │   ├── Part1.java
 │       │   ├── Part2.java

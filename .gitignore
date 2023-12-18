@@ -2,8 +2,8 @@
 out/
 .idea
 *.iml
-!**/src/main/**/out/
-!**/src/test/**/out/
+!src/java/advent_of_code_2023/main/**/out/
+!src/java/advent_of_code_2023/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -14,8 +14,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!src/java/advent_of_code_2023/main/**/bin/
+!src/java/advent_of_code_2023/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

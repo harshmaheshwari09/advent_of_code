@@ -8,7 +8,6 @@ import java.util.Map;
 
 public class Part2 {
 
-
     private static final Map<String, String> NUMBERS_MAP = Map.of(
             "one", "1",
             "two", "2",
@@ -70,7 +69,7 @@ public class Part2 {
     }
 
     public static void main(String[] args) throws IOException {
-        List<String> values = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/advent_of_code_2023/src/day1/input_1.txt");
+        List<String> values = ReadFileAndCreateList.readLinesFromFile(System.getProperty("user.dir") + "/src/java/advent_of_code_2023/day1/input_1.txt");
         System.out.println(getCalibration(values));
     }
 }
